@@ -1,10 +1,10 @@
 function average(list) {
-    var sum = 0;
+  let sum = 0;
   
-    for (var num of list) {
-      sum ++ num;
-    }
-  
-    return sum / list.length;
-  
+  for (let num of list) {
+      sum += num;
+  }
+  console.log(sum);
+  return sum / list.length;
+};
 console.log(average([3, 5, 7]));
